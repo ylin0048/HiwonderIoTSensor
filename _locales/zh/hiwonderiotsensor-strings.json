@@ -1,0 +1,16 @@
+{
+	"hiwonderiotsensor.ADPort.port1|block":"接口1",
+	"hiwonderiotsensor.TempSensor.port4|block":"接口4",
+	"hiwonderiotsensor.TempSensor.port9|block":"接口9",
+	"hiwonderiotsensor.Temp_humi.Temperature|block":"温度",
+	"hiwonderiotsensor.Temp_humi.Humidity|block":"湿度",
+	"hiwonderiotsensor.WaterPumPort.port1|block":"M1",
+	"hiwonderiotsensor.WaterPumPort.port2|block":"M2",
+	"hiwonderiotsensor.qdeeiot_setWaterPump|block":"设置水泵接口|%port|速度(0~100) %speed",
+	"hiwonderiotsensor.qdeeiot_getLightLevel|block":"获取光线传感器接口|%port|亮度等级(0~255)",
+	"hiwonderiotsensor.qdeeiot_getsoilhumi|block":"土壤传感器|%port|湿度",
+	"hiwonderiotsensor.qdeeiot_raindrop|block":"Qdee获取雨滴传感器接口|%port|ad值(0~255)",
+	"hiwonderiotsensor.qdee_avoidSensor|block":"避障传感器接口|%port|检测到障碍物？",
+	"hiwonderiotsensor.qdeewifi_temphumi_init|block":"初始化Qdee温湿度传感器 %port",
+	"hiwonderiotsensor.qdeeiot_gettemperature|block":"Qdee获取 %select"
+}
