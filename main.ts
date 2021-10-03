@@ -73,7 +73,7 @@ namespace hiwonderiotsensor {
     //% weight=46 blockId="qdeeiot_getsoilhumi" block="Qdee get soil humidity port %port"   
     export function qdeeiot_getsoilhumi(port: ADPort): number {
         let value: number = 0;
-        value = pins.analogReadPin(AnalogPin.P1);
+        value = pins.analogReadPin(AnalogPin.P16);
         value = mapRGB(value, 0, 1023, 0, 100);
         return Math.round(value);
     }
@@ -82,7 +82,7 @@ namespace hiwonderiotsensor {
      */
     //% weight=44 blockId="qdeeiot_raindrop" block="Qdee get rain drop port|%port|sensor ad value(0~255)"  
     export function qdeeiot_raindrop(port: ADPort): number {
-        let value = pins.analogReadPin(AnalogPin.P1);
+        let value = pins.analogReadPin(AnalogPin.P16);
         value = mapRGB(value, 0, 1023, 0, 255);
         return Math.round(value);
     }
