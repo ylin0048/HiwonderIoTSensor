@@ -1,5 +1,5 @@
 {
-	"hiwonderiotsensor.ADPort.port1|block":"接口1",
+	"hiwonderiotsensor.ADPort.port3|block":"接口3",
 	"hiwonderiotsensor.TempSensor.port4|block":"接口4",
 	"hiwonderiotsensor.TempSensor.port9|block":"接口9",
 	"hiwonderiotsensor.Temp_humi.Temperature|block":"温度",
