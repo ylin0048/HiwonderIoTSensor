@@ -11,5 +11,5 @@ MIT
 (The metadata above is needed for package search.)
 
 ```package
-hiwonderiotsensor=github:Hiwonder/hiwonderiotsensor
+hiwonderiotsensor=github:ylin0048/hiwonderiotsensor
 ```
