@@ -6,7 +6,7 @@
 namespace hiwonderiotsensor {
     export enum ADPort {
         //% block="Port 1"
-        port1 = 0x01         
+        port3 = 0x03         
     }
     
     export enum TempSensor { 
