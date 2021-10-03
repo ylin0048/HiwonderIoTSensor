@@ -5,7 +5,7 @@
 //% weight=10 icon="\uf1eb" color=#2896ff
 namespace hiwonderiotsensor {
     export enum ADPort {
-        //% block="Port 1"
+        //% block="Port 3"
         port3 = 0x03         
     }
     
